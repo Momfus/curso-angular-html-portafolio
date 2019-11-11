@@ -43,8 +43,7 @@ export class InfoPaginaService {
             .subscribe( (res: any[] ) => {
 
               this.equipo = res;
-              console.log(res);
-
+              // console.log(res);
 
             });
 
